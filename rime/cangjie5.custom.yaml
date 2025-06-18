@@ -1,2 +1,5 @@
 patch:
-  simplifier/tips: "" # Disable comment generation by simplifier
+#  simplifier/tips: "" # Disable comment generation by simplifier
+  key_binder/bindings:
+    - {when: has_menu, accept: space, send: "1"}
+    - {when: has_menu, accept: "Control+space", send: "2"}
